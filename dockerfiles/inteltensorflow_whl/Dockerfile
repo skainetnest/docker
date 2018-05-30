@@ -15,7 +15,7 @@ RUN yum -y update \
 && conda install -y intelpython3_full=2018.0.2=1 python=3
 
 # Install Tensorflow compiled version (with Intel MKL-DNN)
-# RUN pip install --ignore-installed https://anaconda.org/intel/tensorflow/1.6.0/download/tensorflow-1.6.0-cp36-cp36m-linux_x86_64.whl
+RUN pip install --ignore-installed https://anaconda.org/intel/tensorflow/1.6.0/download/tensorflow-1.6.0-cp36-cp36m-linux_x86_64.whl
 
 
 
